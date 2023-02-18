@@ -109,94 +109,6 @@ let questions = [{
 },
 {
   numb: 11,
-  question: "Which of the following is a monosaccharide?",
-  answer: "Glucose",
-  options: [
-    "Glucose",
-    "Sucrose",
-    "Lactose",
-    "Fructose"
-  ]
-},
-{
-  numb: 12,
-  question: "Which of the following is a noble gas?",
-  answer: "Helium",
-  options: [
-    "Oxygen",
-    "Carbon",
-    "Nitrogen",
-    "Helium"
-  ]
-},
-{
-  numb: 13,
-  question: "Which of the following is the lightest gas?",
-  answer: "Hydrogen",
-  options: [
-    "Oxygen",
-    "Nitrogen",
-    "Carbon dioxide",
-    "Hydrogen"
-  ]
-},
-{
-  numb: 14,
-  question: "Which of the following is not a type of chemical bond?",
-  answer: "Magnetic bond",
-  options: [
-    "Ionic bond",
-    "Covalent bond",
-    "Metallic bond",
-    "Magnetic bond"
-  ]
-},
-{
-  numb: 15,
-  question: "Which of the following elements has the highest electronegativity?",
-  answer: "Fluorine",
-  options: [
-    "Carbon",
-    "Oxygen",
-    "Nitrogen",
-    "Fluorine"
-  ]
-},
-{
-  numb: 16,
-  question: "What is the SI unit of pressure?",
-  answer: "Pascal",
-  options: [
-    "Newton",
-    "Joule",
-    "Watt",
-    "Pascal"
-  ]
-},
-{
-  numb: 17,
-  question: "Which of the following is a vector quantity?",
-  answer: "Acceleration",
-  options: [
-    "Mass",
-    "Temperature",
-    "Energy",
-    "Acceleration"
-  ]
-},
-{
-  numb: 18,
-  question: "Which of the following is not a state of matter?",
-  answer: "Energy",
-  options: [
-    "Solid",
-    "Liquid",
-    "Gas",
-    "Energy"
-  ]
-},
-{
-  numb: 19,
   question: "Which of the following is not an enzyme?",
   answer: "Gastrin",
   options: [
@@ -207,7 +119,7 @@ let questions = [{
   ]
 },
 {
-  numb: 20,
+  numb: 12,
   question: "Which of the following is not a type of RNA?",
   answer: "Recombinant RNA",
   options: [
@@ -218,7 +130,7 @@ let questions = [{
   ]
 },
 {
-  numb: 21,
+  numb: 13,
   question: "What is the function of the nucleolus?",
   answer: "c. Ribosome synthesis",
   options: [
@@ -229,7 +141,7 @@ let questions = [{
   ]
 },
 {
-  numb: 22,
+  numb: 14,
   question: "What is the primary source of energy in the cell?",
   answer: "a. ATP",
   options: [
@@ -240,7 +152,7 @@ let questions = [{
   ]
 },
 {
-  numb: 23,
+  numb: 15,
   question: "What is the function of the adrenal gland?",
   answer: "a. Regulation of blood pressure",
   options: [
@@ -251,7 +163,7 @@ let questions = [{
   ]
 },
 {
-  numb: 24,
+  numb: 16,
   question: "Which of the following structures is not found in prokaryotic cells?",
   answer: "c. Nucleus",
   options: [
@@ -262,7 +174,7 @@ let questions = [{
   ]
 },
 {
-  numb: 25,
+  numb: 17,
   question: "Which of the following is not a function of the respiratory system?",
   answer: "c. Production of red blood cells",
   options: [
@@ -270,6 +182,95 @@ let questions = [{
     "b. Regulation of blood pH",
     "c. Production of red blood cells",
     "d. Removal of carbon dioxide"
+  ]
+},
+{
+  numb: 18,
+  question: "Which of the following enzymes is responsible for the synthesis of phosphodiester bonds in DNA?",
+  answer: "a. DNA ligase",
+  options: [
+    "a. DNA ligase",
+    "b. DNA polymerase",
+    "c. RNA polymerase",
+    "d. Restriction endonuclease"
+  ]
+},
+{
+  numb: 19,
+  question: "In which of the following tissues does the Calvin cycle of photosynthesis occur?",
+  answer: "d. Stroma of chloroplasts",
+  options: [
+    "a. Mesophyll cells",
+    "b. Bundle sheath cells",
+    "c. Grana of chloroplasts",
+    "d. Stroma of chloroplasts"
+  ]
+},
+{
+  numb: 20,
+  question: "Which of the following statements is true about enzymes?",
+  answer: "b. They increase the rate of a reaction by lowering the activation energy",
+  options: [
+    "a. They increase the equilibrium constant of a reaction",
+    "b. They increase the rate of a reaction by lowering the activation energy",
+    "c. They change the enthalpy change of a reaction",
+    "d. They change the entropy change of a reaction"
+  ]
+},
+// ----- CHEMISTRY ----- //
+{
+  numb: 21,
+  question: "Which of the following is a monosaccharide?",
+  answer: "Glucose",
+  options: [
+    "Glucose",
+    "Sucrose",
+    "Lactose",
+    "Fructose"
+  ]
+},
+{
+  numb: 22,
+  question: "Which of the following is a noble gas?",
+  answer: "Helium",
+  options: [
+    "Oxygen",
+    "Carbon",
+    "Nitrogen",
+    "Helium"
+  ]
+},
+{
+  numb: 23,
+  question: "Which of the following is the lightest gas?",
+  answer: "Hydrogen",
+  options: [
+    "Oxygen",
+    "Nitrogen",
+    "Carbon dioxide",
+    "Hydrogen"
+  ]
+},
+{
+  numb: 24,
+  question: "Which of the following is not a type of chemical bond?",
+  answer: "Magnetic bond",
+  options: [
+    "Ionic bond",
+    "Covalent bond",
+    "Metallic bond",
+    "Magnetic bond"
+  ]
+},
+{
+  numb: 25,
+  question: "Which of the following elements has the highest electronegativity?",
+  answer: "Fluorine",
+  options: [
+    "Carbon",
+    "Oxygen",
+    "Nitrogen",
+    "Fluorine"
   ]
 },
 {
@@ -327,8 +328,42 @@ let questions = [{
     "d. The reaction is not spontaneous"
   ]
 },
+// ----- PHYSICS ----- //
 {
   numb: 31,
+  question: "What is the SI unit of pressure?",
+  answer: "Pascal",
+  options: [
+    "Newton",
+    "Joule",
+    "Watt",
+    "Pascal"
+  ]
+},
+{
+  numb: 32,
+  question: "Which of the following is a vector quantity?",
+  answer: "Acceleration",
+  options: [
+    "Mass",
+    "Temperature",
+    "Energy",
+    "Acceleration"
+  ]
+},
+{
+  numb: 33,
+  question: "Which of the following is not a state of matter?",
+  answer: "Energy",
+  options: [
+    "Solid",
+    "Liquid",
+    "Gas",
+    "Energy"
+  ]
+},
+{
+  numb: 34,
   question: "What is the formula for kinetic energy?",
   answer: "a. KE = 1/2 mv^2",
   options: [
@@ -339,7 +374,7 @@ let questions = [{
   ]
 },
 {
-  numb: 32,
+  numb: 35,
   question: "What is the difference between velocity and speed?",
   answer: "c. Velocity is the rate of change of displacement with respect to time, while speed is the rate of change of distance with respect to time",
   options: [
@@ -350,7 +385,7 @@ let questions = [{
   ]
 },
 {
-  numb: 33,
+  numb: 36,
   question: "What is the principle of conservation of momentum?",
   answer: "a. The total momentum of a system is conserved if no external forces act on the system",
   options: [
@@ -358,6 +393,50 @@ let questions = [{
     "b. The total kinetic energy of a system is conserved if no external forces act on the system",
     "c. The total potential energy of a system is conserved if no external forces act on the system",
     "d. The total energy of a system is conserved if no external forces act on the system"
+  ]
+},
+{
+  numb: 37,
+  question: "What happens to the capacitance of a parallel-plate capacitor when a dielectric material is inserted between the plates?",
+  answer: "b. It increases by a factor of the dielectric constant of the material.",
+  options: [
+    "a. It decreases by a factor of the dielectric constant of the material.",
+    "b. It increases by a factor of the dielectric constant of the material.",
+    "c. It remains the same as before the dielectric material was inserted.",
+    "d. It becomes zero."
+  ]
+},
+{
+  numb: 38,
+  question: "Two bodies of masses m1 and m2 (m1 < m2) are dropped from a height h. Neglecting air resistance, which of the following statements is true?",
+  answer: "d. The heavier mass reaches the ground with a higher kinetic energy.",
+  options: [
+    "a. The lighter mass reaches the ground with a higher velocity.",
+    "b. The lighter mass reaches the ground with a higher kinetic energy.",
+    "c. The heavier mass reaches the ground with a higher velocity.",
+    "d. The heavier mass reaches the ground with a higher kinetic energy."
+  ]
+},
+{
+  numb: 39,
+  question: "A body is moving in a circular path with constant speed v. Which of the following statements is NOT true?",
+  answer: "a. The body has a constant acceleration.",
+  options: [
+    "a. The body has a constant acceleration.",
+    "b. The body experiences a centripetal force.",
+    "c. The direction of the acceleration is towards the center of the circle.",
+    "d. The magnitude of the acceleration is v^2/r."
+  ]
+},
+{
+  numb: 40,
+  question: "Which of the following statements is true for an ideal gas undergoing an adiabatic process?",
+  answer: "b. The product of pressure and volume raised to the power of the ratio of specific heats is constant.",
+  options: [
+    "a. The product of pressure and volume is constant.",
+    "b. The product of pressure and volume raised to the power of the ratio of specific heats is constant.",
+    "c. The temperature remains constant.",
+    "d. The internal energy remains constant."
   ]
 }
 ]
